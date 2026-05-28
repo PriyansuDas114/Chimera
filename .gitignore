@@ -1,0 +1,7 @@
+node_modules/
+dist/
+data/sessions/*.db
+data/vectors/
+.env
+*.js.map
+hermes-agent-main/

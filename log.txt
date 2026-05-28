@@ -1,0 +1,215 @@
+  Current model:    anthropic/claude-opus-4.6
+  Active provider:  OpenRouter
+
+
+  Select provider:
+  Select by number, Enter to confirm.
+
+  (○)  1. Nous Portal (Nous Research subscription)
+  (●)  2. OpenRouter (100+ models, pay-per-use)  ← currently active
+  (○)  3. NovitaAI (AI-native cloud: Model API, Agent Sandbox, GPU Cloud)
+  (○)  4. LM Studio (local desktop app with built-in model server)
+  (○)  5. Anthropic (Claude models — API key or Claude Code)
+  (○)  6. OpenAI Codex
+  (○)  7. OpenAI API (api.openai.com, API key)
+  (○)  8. Qwen Cloud / DashScope Coding (Qwen + multi-provider)
+  (○)  9. xAI Grok OAuth (SuperGrok / Premium+)
+  (○) 10. Xiaomi MiMo (MiMo-V2.5 and V2 models — pro, omni, flash)
+  (○) 11. Tencent TokenHub (Hy3 Preview — direct API via tokenhub.tencentmaas.com)
+  (○) 12. NVIDIA NIM (Nemotron models — build.nvidia.com or local NIM)
+  (○) 13. GitHub Copilot (uses GITHUB_TOKEN or gh auth token)
+  (○) 14. GitHub Copilot ACP (spawns `copilot --acp --stdio`)
+  (○) 15. Hugging Face Inference Providers (20+ open models)
+  (○) 16. Google AI Studio (Gemini models — native Gemini API)
+  (○) 17. Google Gemini via OAuth + Code Assist (free tier supported; no API key needed)
+  (○) 18. DeepSeek (DeepSeek-V3, R1, coder — direct API)
+  (○) 19. xAI (Grok models — direct API)
+  (○) 20. Z.AI / GLM (Zhipu AI direct API)
+  (○) 21. Kimi Coding Plan (api.kimi.com) & Moonshot API
+  (○) 22. Kimi / Moonshot China (Moonshot CN direct API)
+  (○) 23. StepFun Step Plan (agent/coding models via Step Plan API)
+  (○) 24. MiniMax (global direct API)
+  (○) 25. MiniMax via OAuth browser login (Coding Plan, minimax.io)
+  (○) 26. MiniMax China (domestic direct API)
+  (○) 27. Ollama Cloud (cloud-hosted open models — ollama.com)
+  (○) 28. Arcee AI (Trinity models — direct API)
+  (○) 29. GMI Cloud (multi-model direct API)
+  (○) 30. Kilo Code (Kilo Gateway API)
+  (○) 31. OpenCode Zen (35+ curated models, pay-as-you-go)
+  (○) 32. OpenCode Go (open models, $10/month subscription)
+  (○) 33. AWS Bedrock (Claude, Nova, Llama, DeepSeek — IAM or API key)
+  (○) 34. Azure Foundry (OpenAI-style or Anthropic-style endpoint — your Azure AI deployment)
+  (○) 35. Qwen OAuth (reuses local Qwen CLI login)
+  (○) 36. Alibaba Cloud Coding Plan — dedicated coding tier
+  (○) 37. custom (direct API)
+  (○) 38. Custom endpoint (enter URL manually)
+  (○) 39. Configure auxiliary models...
+  (○) 40. Leave unchanged
+
+  Choice [default 2]: 2
+
+Get one at: https://openrouter.ai/keys
+
+No OpenRouter API key configured.
+OPENROUTER_API_KEY (or Enter to cancel):
+Cancelled.
+
+◆ Terminal Backend
+  Choose where Hermes runs shell commands and code.
+  This affects tool execution, file access, and isolation.
+     Guide: https://hermes-agent.nousresearch.com/docs/developer-guide/environments
+
+
+  Select terminal backend:
+  Select by number, Enter to confirm.
+
+  (○)  1. Local - run directly on this machine (default)
+  (○)  2. Docker - isolated container with configurable resources
+  (○)  3. Modal - serverless cloud sandbox
+  (○)  4. SSH - run on a remote machine
+  (○)  5. Daytona - persistent cloud development environment
+  (●)  6. Keep current (local)
+
+  Choice [default 6]:
+    Skipped (keeping current)
+
+  Keeping current backend: local
+✓ Applied recommended defaults:
+    Max iterations: 90
+    Tool progress: all
+    Compression threshold: 0.50
+    Session reset: inactivity (1440 min) + daily (4:00)
+    Run `hermes setup agent` later to customize.
+
+
+  Connect a messaging platform? (Telegram, Discord, etc.)
+  Select by number, Enter to confirm.
+
+  (●)  1. Set up messaging now (recommended)
+  (○)  2. Skip — set up later with 'hermes setup gateway'
+
+  Choice [default 1]:
+    Skipped (keeping current)
+
+
+◆ Messaging Platforms
+  Connect to messaging platforms to chat with Hermes from anywhere.
+  Toggle with Space, confirm with Enter.
+
+
+  Select platforms to configure:
+  Toggle by number, Enter to confirm.
+
+  [ ]  1. 📱 Telegram  (not configured)
+  [ ]  2. 💼 Slack  (not configured)
+  [ ]  3. 💬 Mattermost  (not configured)
+  [ ]  4. 📲 WhatsApp  (not configured)
+  [ ]  5. 📡 Signal  (not configured)
+  [ ]  6. 📧 Email  (not configured)
+  [ ]  7. 📱 SMS (Twilio)  (not configured)
+  [ ]  8. 💬 DingTalk  (not configured)
+  [ ]  9. 🪽 Feishu / Lark  (not configured)
+  [ ] 10. 💬 WeCom (Enterprise WeChat)  (not configured)
+  [ ] 11. 💬 WeCom Callback (Self-Built App)  (not configured)
+  [ ] 12. 💬 Weixin / WeChat  (not configured)
+  [ ] 13. 💬 BlueBubbles (iMessage)  (not configured)
+  [ ] 14. 🐧 QQ Bot  (not configured)
+  [ ] 15. 💎 Yuanbao  (not configured)
+  [ ] 16. 🎮 Discord  (not configured)
+  [ ] 17. 💬 Google Chat  (not configured)
+  [ ] 18. 💬 IRC  (not configured)
+  [ ] 19. 💚 LINE  (not configured)
+  [ ] 20. 🔔 ntfy  (not configured)
+  [ ] 21. 🔒 SimpleX Chat  (not configured)
+  [ ] 22. 💼 Microsoft Teams  (not configured)
+
+  Toggle # (or Enter to confirm):
+  No platforms selected. Run 'hermes setup gateway' later to configure.
+
+✓ Setup complete! You're ready to go.
+
+    Configure all settings:    hermes setup
+
+
+
+◆ Tool Availability Summary
+  6/10 tool categories available:
+
+   ✗ Vision (image analysis) (missing run 'hermes setup' to configure)
+   ✗ Mixture of Agents (missing OPENROUTER_API_KEY)
+   ✗ Web Search & Extract (missing EXA_API_KEY, PARALLEL_API_KEY, FIRECRAWL_API_KEY/FIRECRAWL_API_URL, TAVILY_API_KEY, or SEARXNG_URL)
+   ✓ Browser Automation (Local browser)
+   ✓ Image Generation (OpenAI)
+   ✓ Text-to-Speech (Edge TTS)
+   ✗ Skills Hub (GitHub) (missing GITHUB_TOKEN)
+   ✓ Terminal/Commands
+   ✓ Task Planning (todo)
+   ✓ Skills (view, create, edit)
+
+⚠ Some tools are disabled. Run 'hermes setup tools' to configure them,
+⚠ or edit ~/AppData\Local\hermes/.env directly to add the missing API keys.
+
+
+┌─────────────────────────────────────────────────────────┐
+│              ✓ Setup Complete!                          │
+└─────────────────────────────────────────────────────────┘
+
+📁 All your files are in ~/AppData\Local\hermes/:
+
+   Settings:  C:\Users\KIIT0001\AppData\Local\hermes\config.yaml
+   API Keys:  C:\Users\KIIT0001\AppData\Local\hermes\.env
+   Data:      C:\Users\KIIT0001\AppData\Local\hermes/cron/, sessions/, logs/
+
+────────────────────────────────────────────────────────────
+
+📝 To edit your configuration:
+
+   hermes setup          Re-run the full wizard
+   hermes setup model    Change model/provider
+   hermes setup terminal Change terminal backend
+   hermes setup gateway  Configure messaging
+   hermes setup tools    Configure tool providers
+
+   hermes config         View current settings
+   hermes config edit    Open config in your editor
+   hermes config set <key> <value>
+                          Set a specific value
+
+   Or edit the files directly:
+   nano C:\Users\KIIT0001\AppData\Local\hermes\config.yaml
+   nano C:\Users\KIIT0001\AppData\Local\hermes\.env
+
+────────────────────────────────────────────────────────────
+
+🚀 Ready to go!
+
+   hermes              Start chatting
+   hermes gateway      Start messaging gateway
+   hermes doctor       Check for issues
+
+
++---------------------------------------------------------+
+|              [OK] Installation Complete!                |
++---------------------------------------------------------+
+
+* Your files:
+
+   Config:    C:\Users\KIIT0001\AppData\Local\hermes\config.yaml
+   API Keys:  C:\Users\KIIT0001\AppData\Local\hermes\.env
+   Data:      C:\Users\KIIT0001\AppData\Local\hermes\cron\, sessions\, logs\
+   Code:      C:\Users\KIIT0001\AppData\Local\hermes\hermes-agent\
+
+---------------------------------------------------------
+
+* Commands:
+
+   hermes              Start chatting
+   hermes setup        Configure API keys & settings
+   hermes config       View/edit configuration
+   hermes config edit  Open config in editor
+   hermes gateway      Start messaging gateway (Telegram, Discord, etc.)
+   hermes update       Update to latest version
+
+---------------------------------------------------------
+
+[*] Restart your terminal for PATH changes to take effect
